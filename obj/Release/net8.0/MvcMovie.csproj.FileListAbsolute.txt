@@ -1,0 +1,9 @@
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.csproj.AssemblyReference.cache
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.AssemblyInfoInputs.cache
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.AssemblyInfo.cs
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.csproj.CoreCompileInputs.cache
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.RazorAssemblyInfo.cache
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.RazorAssemblyInfo.cs
+C:\Users\Dell\MvcMovie\obj\Release\net8.0\MvcMovie.sourcelink.json

@@ -1,0 +1,46 @@
+@model IEnumerable<MvcMovie.Models.Movie>
+
+@{
+    ViewData["Title"] = "My Recommended Choice Movies";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-controller="Movies" asp-action="Index" method="get">
+    <p>
+        Search by Year: <input type="number" name="searchYear" class="form-control" />
+        <input type="submit" value="Filter" class="btn btn-primary" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Release Date</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.ReleaseDate.ToString("yyyy-MM-dd")</td>
+                <td>@item.Genre</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Add New Movie</a>
+</p>
